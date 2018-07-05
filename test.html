@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color cpy Hex</title>
+	<script src="dist/clipboard.min.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+	$(function() {
+   if (localStorage["myKey"] != null) {
+      var contentsOfOldDiv = JSON.parse(localStorage["myKey"]);    
+      $("divWhereIwantStuffDisplayed").html(contentsOfOldDiv);
+     } 
+});
+</script>
+
+</body>
+</html>
